@@ -12,3 +12,4 @@ Within the Repository, <a href='mysql table code.docx'>mysql table code</a> is p
 2. Necessary JDBC/ODBC drivers are present within the project itslef.
 3. The prject was built on NetBeans IDE but should work on any JAVA based IDE supporting JDK 8 or above.
 4. The documentation link above also has screentshots from the project and the source code in an arranged manner that should be easier to understand.
+5. The name of the bank used in the project is independant from the actual branch and this project is in no way sponsored or endorsed by it.
