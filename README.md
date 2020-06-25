@@ -5,7 +5,7 @@ An e-wallet applet made using MySQLand JAVA (jForms) as a part of my class 12th 
 The entire documentaion of the project can be found <a href='https://docs.google.com/document/d/1GfsO1qDqlXDQeJ16TlTgpfsoza318zlpw2MVMAmpO-M/edit?usp=sharing'>here</a>.
 
 # MySQL Databases
-Within the Repository, <a href='mysql table code.docx'>mysql table code</a> is provided to create the required tables. Also, a sample data entryset is also provided in <a href='mysql sample data records.docx'>mysql sample data records</a>. Just copy the code from the table code file to create all necesarry tables and copy it into MySQL CLI and then insert your own custom data or use the one given in sample data.
+Within the Repository, <a href='mysql table code.docx'>mysql table code</a> is provided to create the required tables. A sample data entryset is also provided in <a href='mysql sample data records.docx'>mysql sample data records</a>. Just copy the code from the table code file to create all necesarry tables and copy it into MySQL CLI and then insert your own custom data or use the one given in sample data.
 
 # NOTE(s)
 1. The password used for MySQL was 'amity' while the user was 'root'.
