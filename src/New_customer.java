@@ -207,7 +207,7 @@ public class New_customer extends javax.swing.JFrame {
         jLabel4.setText("Title");
 
         title_cb.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        title_cb.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "<Please Select Your Title>", "Mr.", "Mrs.", "Ms.", "Dr.", "Proff.", "Pt.", "Comm.", "General", " ", " " }));
+        title_cb.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "<Please Select Your Title>", "Mr.", "Mrs.", "Ms.", "Dr.", "Proff.", "Pt.", "Comm.", "General" }));
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel5.setText("Full Name");
