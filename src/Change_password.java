@@ -329,7 +329,7 @@ try
 {
  Class.forName("java.sql.DriverManager");
  Connection con;
- con=(Connection)DriverManager.getConnection("jdbc:mysql://localhost:3306/bank","root","amity");
+ con=(Connection)DriverManager.getConnection("jdbc:mysql://localhost:3306/bank","root","");
  
  Statement smt1=(Statement)con.createStatement(); //select query from customer_deails
  String query1="Select * from customer_details where username='"+username+"';";

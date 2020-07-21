@@ -515,7 +515,7 @@ if(password1.equals(password2)) //condtion 1: to chech if the entered passwords 
     {
      Class.forName("java.sql.DriverManager"); //connecting to mysql
      Connection con;
-     con=(Connection)DriverManager.getConnection("jdbc:mysql://localhost:3306/bank","root","amity");
+     con=(Connection)DriverManager.getConnection("jdbc:mysql://localhost:3306/bank","root","");
      
      Statement smt1=(Statement)con.createStatement(); //insert query for customer_details table
      String query1="Insert into customer_details values('"+title+"','"+name+"','"+dob+"','"+gender+"','"+username+"','"+password1+"');";

@@ -370,7 +370,7 @@ try
 {
  Class.forName("java.sql.DriverManager");
  Connection con;
- con=(Connection)DriverManager.getConnection("jdbc:mysql://localhost:3306/bank","root","amity");
+ con=(Connection)DriverManager.getConnection("jdbc:mysql://localhost:3306/bank","root","");
  Statement smt1=(Statement)con.createStatement();
  String query1="Select * from recovery where username='"+username+"';";
  ResultSet rs=smt1.executeQuery(query1);
@@ -433,7 +433,7 @@ if(password_new.length()>6) //conditon 1:making sure password is long enough
   {
    Class.forName("java.sql.DriverManager");
    Connection con;
-   con=(Connection)DriverManager.getConnection("jdbc:mysql://localhost:3306/bank","root","amity");
+   con=(Connection)DriverManager.getConnection("jdbc:mysql://localhost:3306/bank","root","");
    Statement smt=(Statement)con.createStatement();
    String query="Update customer_details set password='"+password_new+"' where username='"+username+"';";
    smt.executeUpdate(query);

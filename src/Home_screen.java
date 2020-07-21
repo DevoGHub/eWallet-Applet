@@ -10,7 +10,7 @@ import javax.swing.UIManager;
 
 /**
  *
- * @author amity
+ * @author 
  */
 public class Home_screen extends javax.swing.JFrame {
 
@@ -127,7 +127,7 @@ public class Home_screen extends javax.swing.JFrame {
      { 
       Class.forName("java.sql.DriverManager");
       Connection con;
-      con=(Connection)DriverManager.getConnection("jdbc:mysql://localhost:3306/bank","root","amity");
+      con=(Connection)DriverManager.getConnection("jdbc:mysql://localhost:3306/bank","root","");
    
       Statement smt=(Statement)con.createStatement();
       String query= "Select * from user_account where username='"+username1+"';";
@@ -388,7 +388,7 @@ else //else for condition 1
    {
     Class.forName("java.sql.DriverManager");
     Connection con;
-    con=(Connection)DriverManager.getConnection("jdbc:mysql://localhost:3306/bank","root","amity");
+    con=(Connection)DriverManager.getConnection("jdbc:mysql://localhost:3306/bank","root","");
     
     Statement smt1=(Statement)con.createStatement();
     String query1="Insert into transactions(username_sent,username_recieved,amount,trans_date) values('"+usernames+"','"+usernamer+"','"+amount+"',(select curdate()));";

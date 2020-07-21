@@ -85,7 +85,7 @@ public Veiw_passbook(String username)
  {
  Class.forName("java.sql.DriverManager");
  Connection con;
- con=(Connection)DriverManager.getConnection("jdbc:mysql://localhost:3306/bank","root","amity");
+ con=(Connection)DriverManager.getConnection("jdbc:mysql://localhost:3306/bank","root","");
  Statement smt=(Statement)con.createStatement();
  String query="Select * from transactions where username_sent='"+username+"' or username_recieved='"+username+"';";
  ResultSet rs=smt.executeQuery(query);
