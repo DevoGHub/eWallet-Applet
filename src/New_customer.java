@@ -472,6 +472,7 @@ username_tf.setText("");
 password_pf1.setText("");
 password_pf2.setText("");
 question_tf1.setText("");
+question_tf2.setText("");
 question_tf3.setText("");
     }//GEN-LAST:event_jButton3ActionPerformed
 
